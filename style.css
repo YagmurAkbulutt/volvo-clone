@@ -1,0 +1,144 @@
+.collapse > .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 500;
+    
+}
+
+.collapse > .navbar-nav > .nav-item{
+    text-align: center;
+    
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    margin-left: 25%;
+    padding: 50px; 
+    text-align: right;
+    max-width: 50%; 
+    
+}
+
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-caption h4,
+  .carousel-caption h1,
+  .carousel-caption p {
+    margin: 0;
+  }
+
+  .carousel-caption h4,
+  .carousel-caption h1 {
+    font-weight: bold;
+  }
+
+  .con-text{
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+
+  .card .card-text{
+    color: #5C6B6B;
+  }
+
+ 
+  .con-text span{
+    color: #5C6B6B;
+  }
+
+  .con-text .car-text{
+    font-weight: 300;
+    font-size: 1.25rem;
+  }
+
+  .car-cards{
+    background-color: #FAFAFA;
+    margin-top: 5%;
+    width: 450px;
+   display: flex;
+   column-gap: 10px;
+    
+  }
+
+  .car-cards .c-card h4{
+    margin-top: 10px;
+    
+  }
+  .car-cards .p-2{
+    max-width: 370px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .card a{
+    font-weight: 600;
+  }
+
+  .card{
+    max-width: 400px;
+    background-color: #FAFAFA;
+    margin-top: 5%;
+    margin-left: 5%;
+    column-gap: 5px;
+  }
+
+  .card .card-body{
+    background-color: #FAFAFA;
+
+  }
+
+  .footer{
+    background-color: #FAFAFA;
+  }
+  
+  .list{
+    margin-top: 5%;
+    list-style: none;
+  }
+
+  .list:hover{
+    cursor: pointer;
+    
+  }
+
+  .list li:hover{
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .social-media{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5%;
+    font-size: 20px;
+  }
+
+  .list-2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2%;
+    font-size: 15px;
+  }
+
+  .list-2:hover{
+    cursor: pointer;
+    
+  }
+
+  .list-2 li:hover{
+    text-decoration: underline;
+  }
